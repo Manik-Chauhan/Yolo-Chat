@@ -35,6 +35,6 @@ socket.on('receive', data =>{
 	append(`${data.name}: ${data.message}`,'left')
 })
 
-socket.on('left', data =>{
+socket.on('left', name =>{
 	append(`${name} Left the chat`,'left')
 })

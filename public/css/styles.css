@@ -1,8 +1,25 @@
-
+	::-webkit-scrollbar {
+		width: 10px;
+	  }
+	  
+	  /* Track */
+	  ::-webkit-scrollbar-track {
+		background: #f1f1f1; 
+	  }
+	   
+	  /* Handle */
+	  ::-webkit-scrollbar-thumb {
+		background:rgb(128, 0, 0); 
+	  }
+	  
+	  /* Handle on hover */
+	  ::-webkit-scrollbar-thumb:hover {
+		background: rgb(128, 0, 0);
+	  }
 
 body{
 	height:100vh;
-	background-image:linear-gradient(rgba(225,255,255),purple);
+	background-image:linear-gradient(rgba(225,255,255),rgb(128, 0, 0));
 }
 .logo{
 	display:block;
@@ -25,7 +42,7 @@ h1{
 }
 
 .message{
-	width:24%;
+	width:30%;
 	padding:10px;
 	margin:17px 12px;
 	border:2px solid black;
@@ -59,6 +76,7 @@ h1{
 }
 .btn{
 	cursor:pointer;
+	background-color:rgb(105,171,253) ;
 	border:2px solid black;
 	height:34px;
 	width:9%;
