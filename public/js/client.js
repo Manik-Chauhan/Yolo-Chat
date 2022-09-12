@@ -1,5 +1,5 @@
 console.log('client side js is running');
-const socket = io('https://yolo-chat.herokuapp.com/')
+const socket = io('https://yolo-chat.netlify.app/')
 //const socket = io('http://localhost:3000/')
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageImp');
